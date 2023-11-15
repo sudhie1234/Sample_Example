@@ -1,0 +1,53 @@
+import matlab.unittest.TestRunner;
+import matlab.unittest.plugins.DiagnosticsOutputPlugin;
+import sltest.plugins.MATLABTestCaseIntegrationPlugin;
+import sltest.plugins.TestManagerResultsPlugin;
+import sltest.plugins.ToTestManagerLog;
+import sltest.plugins.ModelCoveragePlugin;
+import sltest.plugins.coverage.CoverageMetrics;
+import sltest.plugins.coverage.ModelCoverageReport;
+import sltest.testmanager.importResults;
+import sltest.plugins.coverage.ModelCoverageReport;
+import matlab.unittest.plugins.codecoverage.CoberturaFormat;
+import matlab.unittest.TestSuite;
+import matlab.unittest.plugins.TestReportPlugin;
+import matlab.unittest.Verbosity;
+import matlab.unittest.plugins.XMLPlugin;
+import matlab.unittest.plugins.TestReportPlugin;
+import matlab.unittest.plugins.CodeCoveragePlugin;
+import matlab.unittest.plugins.codecoverage.CoverageReport;
+import matlab.unittest.plugins.TAPPlugin;
+import matlab.unittest.plugins.ToFile;
+
+proj = openProject('Requirements_Model.prj');
+open_system('Wiper_Model.slx');
+%open_system('Wiper_New_Harness1.slx');
+myLinkSet = slreq.load('Matlab_Req_Test_File.slmx');
+slreq.clear;
+[myLinkSet,myReqSet] = slreq.load('Wiper_Model.slx');
+sltestmgr; 
+testFile = sltest.testmanager.load('Requirements_Wiper.mldatx'); 
+testSuite = getTestSuiteByName(testFile,'Wiper_Suite'); 
+testCase1 = getTestCaseByName(testSuite,'Wiper_TC01');
+resultObj1 = run(testCase1);
+testCase2 = getTestCaseByName(testSuite,'Wiper_TC02'); 
+resultObj2 = run(testCase2);
+testCase3 = getTestCaseByName(testSuite,'Wiper_TC03'); 
+resultObj3 = run(testCase3);
+testCase4 = getTestCaseByName(testSuite,'Wiper_TC04'); 
+resultObj4 = run(testCase4);
+testCase5 = getTestCaseByName(testSuite,'Wiper_TC05'); 
+resultObj5 = run(testCase5);
+testCase6 = getTestCaseByName(testSuite,'Wiper_TC06'); 
+resultObj6 = run(testCase6);
+
+runner = TestRunner.withTextOutput('OutputDetail', Verbosity.Detailed );
+runner.addPlugin(TestReportPlugin.producingHTML('testReport'));
+runner.addPlugin(TAPPlugin.producingVersion13(ToFile('matlabTestArtifacts/taptestresults.tap')));
+runner.addPlugin(XMLPlugin.producingJUnitFormat('matlabTestArtifacts/junittestresults.xml'));
+runner.addPlugin(TestReportPlugin.producingPDF('mjreport.pdf'));
+runner.addPlugin(TAPPlugin.producingVersion13(ToFile('mjreport.tap')));
+runner.addPlugin(CodeCoveragePlugin.forFolder({'slcov_output/$ModelName$'}, 'IncludingSubfolders', true, 'Producing', CoverageReport('covReport', ...
+   'MainFile','index.html')));
+
+results = runner.run(suite);

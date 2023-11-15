@@ -1,0 +1,742 @@
+<?xml version="1.0"?>
+<REQ-IF  xmlns="http://www.omg.org/spec/ReqIF/20110401/reqif.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <THE-HEADER>
+    <REQ-IF-HEADER IDENTIFIER="_5cc57f98-6f9d-45fb-b6c2-ebccdc7fe601">
+      <COMMENT></COMMENT>
+      <CREATION-TIME>2020-04-08T01:06:13+05:30</CREATION-TIME>
+      <REPOSITORY-ID></REPOSITORY-ID>
+      <REQ-IF-TOOL-ID>Requirements Toolbox</REQ-IF-TOOL-ID>
+      <REQ-IF-VERSION>1.0</REQ-IF-VERSION>
+      <SOURCE-TOOL-ID>Requirements Toolbox</SOURCE-TOOL-ID>
+      <TITLE>temp</TITLE>
+    </REQ-IF-HEADER>
+  </THE-HEADER>
+  <CORE-CONTENT>
+    <REQ-IF-CONTENT>
+      <DATATYPES>
+        <DATATYPE-DEFINITION-STRING DESC="" IDENTIFIER="b16e21df-7464-4f37-9214-8d74ffa17ef6" LAST-CHANGE="1970-01-01T05:30:00+05:30" LONG-NAME="ReqIF.ForeignID" MAX-LENGTH="0"/>
+        <DATATYPE-DEFINITION-XHTML DESC="" IDENTIFIER="_6a60f0a4-0de7-42ba-8bd2-36ab0d77450b" LAST-CHANGE="1970-01-01T05:30:00+05:30" LONG-NAME="ReqIF.Text"/>
+        <DATATYPE-DEFINITION-STRING DESC="" IDENTIFIER="c140dfe8-4701-4842-8963-8a245e670c41" LAST-CHANGE="1970-01-01T05:30:00+05:30" LONG-NAME="ReqIF.ChapterName" MAX-LENGTH="0"/>
+      </DATATYPES>
+      <SPEC-TYPES>
+        <SPEC-OBJECT-TYPE DESC="" IDENTIFIER="_9ac6ee73-ad08-434c-960c-8cfe13e03ded" LAST-CHANGE="1970-01-01T05:30:00+05:30" LONG-NAME="Requirement">
+          <SPEC-ATTRIBUTES>
+            <ATTRIBUTE-DEFINITION-STRING DESC="" IDENTIFIER="_4071a8aa-8149-485d-b344-361574cf96b9" IS-EDITABLE="false" LAST-CHANGE="1970-01-01T05:30:00+05:30" LONG-NAME="ReqIF.ForeignID">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>b16e21df-7464-4f37-9214-8d74ffa17ef6</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+            <ATTRIBUTE-DEFINITION-XHTML DESC="" IDENTIFIER="_4cd3770e-9ddf-4f34-a93d-55e0808d1df9" IS-EDITABLE="false" LAST-CHANGE="1970-01-01T05:30:00+05:30" LONG-NAME="ReqIF.Text">
+              <TYPE>
+                <DATATYPE-DEFINITION-XHTML-REF>_6a60f0a4-0de7-42ba-8bd2-36ab0d77450b</DATATYPE-DEFINITION-XHTML-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-XHTML>
+            <ATTRIBUTE-DEFINITION-STRING DESC="" IDENTIFIER="f93675cc-237c-4fe1-9284-5cfbf3634129" IS-EDITABLE="false" LAST-CHANGE="1970-01-01T05:30:00+05:30" LONG-NAME="ReqIF.ChapterName">
+              <TYPE>
+                <DATATYPE-DEFINITION-STRING-REF>c140dfe8-4701-4842-8963-8a245e670c41</DATATYPE-DEFINITION-STRING-REF>
+              </TYPE>
+            </ATTRIBUTE-DEFINITION-STRING>
+          </SPEC-ATTRIBUTES>
+        </SPEC-OBJECT-TYPE>
+        <SPECIFICATION-TYPE DESC="" IDENTIFIER="af022453-37d5-467d-904b-64d522161eec" LAST-CHANGE="1970-01-01T05:30:00+05:30" LONG-NAME="RequirementSet">
+          <SPEC-ATTRIBUTES/>
+        </SPECIFICATION-TYPE>
+      </SPEC-TYPES>
+      <SPEC-OBJECTS>
+        <SPEC-OBJECT DESC="" IDENTIFIER="_734cafd0-0530-4568-aebd-6318c3a0ffed" LAST-CHANGE="2023-10-17T17:49:07+05:30" LONG-NAME="WMREQ001">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="WMREQ001">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="true">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Inputs/Outputs to the System">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="d2b08ecd-3cbd-48d8-a17e-4d49f6a29b16" LAST-CHANGE="2023-10-18T07:18:58+05:30" LONG-NAME="WMREQ001_1">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="WMREQ001_1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="true">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Input_1 - Ignition">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="_0afbbb85-f0cc-4b18-840c-14139308bf66" LAST-CHANGE="2023-10-18T07:19:26+05:30" LONG-NAME="WMREQ001_2">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="WMREQ001_2">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="true">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Input_2 - Rain_Sensor">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="dd2db3b3-4cb0-4ee5-a507-5cf3dc202a5d" LAST-CHANGE="2023-10-17T17:37:34+05:30" LONG-NAME="WMREQ001_3">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="WMREQ001_3">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="true">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Input_3 - Knob">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="_5edb9a91-1c63-445e-8753-a6b83004d271" LAST-CHANGE="2023-10-18T10:11:57+05:30" LONG-NAME="WMREQ001_4">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="WMREQ001_4">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="true">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Output - Wiper_Output">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="_2cc5fcf6-0cf7-4ac9-9723-8c63445cf1b7" LAST-CHANGE="2023-10-17T17:39:39+05:30" LONG-NAME="WMREQ002">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="WMREQ002">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="true">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Logical Connections inside systems">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="e7437d2b-5dd8-40ce-805e-d3bb07e21206" LAST-CHANGE="2023-10-17T17:45:29+05:30" LONG-NAME="WMREQ002_1">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="WMREQ002_1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="true">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Intermediate_1 = Rain_Sensor OR Knob">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="accc7c09-fc21-4daf-a87f-3d80ae0a8dbf" LAST-CHANGE="2023-10-17T17:46:02+05:30" LONG-NAME="WMREQ002_2">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="WMREQ002_2">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="true">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Wiper = Intermediate_1 AND Ignition">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="bb23b47b-f665-48a2-a89c-517bbaa6dd19" LAST-CHANGE="2023-10-18T07:13:32+05:30" LONG-NAME="WMREQ002_3">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="WMREQ002_3">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="true">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Compare to Constant (Equal to 1)">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="a1ddcc18-2bca-4281-9462-3bd2f2561fe3" LAST-CHANGE="2023-10-17T17:46:26+05:30" LONG-NAME="WMREQ003">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="WMREQ003">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="true">
+              <THE-VALUE>
+                <xhtml:div><xhtml:table border="0" style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="2" cellpadding="0"><xhtml:tr><xhtml:td width="342"><xhtml:p align="left" style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Wiper Output is only enabled when Ignition Switch is ON&#160;</xhtml:p></xhtml:td></xhtml:tr></xhtml:table></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Wiper Enable behaviour ">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="dd225d94-bb2e-45ca-9866-07e37f21d8cd" LAST-CHANGE="2023-10-17T17:46:34+05:30" LONG-NAME="WMREQ003_1">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="WMREQ003_1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="true">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Wiper=ENABLE if Ignition=ON">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="ad27de75-5169-404c-a25c-27c972baa60b" LAST-CHANGE="2023-10-17T17:46:49+05:30" LONG-NAME="WMREQ004">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="WMREQ004">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="true">
+              <THE-VALUE>
+                <xhtml:div><xhtml:table border="0" style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="2" cellpadding="0"><xhtml:tr><xhtml:td width="342"><xhtml:p align="left" style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">The Wiper Output shall turn ON if the Rain Sensor senses water droplets, only if the Ignition Switch is ON</xhtml:p></xhtml:td></xhtml:tr></xhtml:table></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Rain Sensor Activation  ">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="_05711b15-6463-4c10-8ad4-10dc22b8906f" LAST-CHANGE="2023-10-17T17:46:57+05:30" LONG-NAME="WMREQ004_1">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="WMREQ004_1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="true">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Wiper=ON if (Rain_Sensor=1 OR Knob=0) AND Ignition=1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="_990de657-d111-44a6-8f9d-05d7431b8a43" LAST-CHANGE="2023-10-17T17:47:02+05:30" LONG-NAME="WMREQ005">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="WMREQ005">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="true">
+              <THE-VALUE>
+                <xhtml:div><xhtml:table border="0" style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="2" cellpadding="0"><xhtml:tr><xhtml:td width="342"><xhtml:p align="left" style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">The Wiper Output shall turn ON if the Knob is manually turned ON, only if the Ignition Switch is ON</xhtml:p></xhtml:td></xhtml:tr></xhtml:table></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Knob Activation ">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="_6d398c49-d3df-4ed7-bede-e5ee9c27ff15" LAST-CHANGE="2023-10-17T17:47:08+05:30" LONG-NAME="WMREQ005_1">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="WMREQ005_1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="true">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Wiper=ON if (Rain_Sensor=0 OR Knob=1) AND Ignition=1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="_7885a8d2-0243-41b9-bdc4-b3d5abc1bdef" LAST-CHANGE="2023-10-17T17:47:13+05:30" LONG-NAME="WMREQ006">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="WMREQ006">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="true">
+              <THE-VALUE>
+                <xhtml:div><xhtml:table border="0" style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="2" cellpadding="0"><xhtml:tr><xhtml:td width="342"><xhtml:p align="left" style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">The Wiper Output shall turn ON if both the Rain Sensor senses water droplets AND Knob is Turned ON with Ignition Switch ON</xhtml:p></xhtml:td></xhtml:tr></xhtml:table></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Rain Sensor and Knob Activation ">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="_2451934e-bbbc-43d0-9955-e3371e4e3af9" LAST-CHANGE="2023-10-17T17:47:18+05:30" LONG-NAME="WMREQ006_1">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="WMREQ006_1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="true">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Wiper=ON if (Rain_Sensor=1 OR Knob=1)AND Ignition=1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="_298e6f31-4bc3-4372-b54c-d3925080bf67" LAST-CHANGE="2023-10-17T17:47:24+05:30" LONG-NAME="WMREQ007">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="WMREQ007">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="true">
+              <THE-VALUE>
+                <xhtml:div><xhtml:table border="0" style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="2" cellpadding="0"><xhtml:tr><xhtml:td width="342"><xhtml:p align="left" style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Regardless of the inputs of Ignition Switch is ON, the wiper should be OFF if&#160; both the inputs of Rain Sensor and Knob to the Wiper, are OFF</xhtml:p></xhtml:td></xhtml:tr></xhtml:table></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Wiper Disable Behavior1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="_132cf743-8298-44e2-987d-3ef05c274d46" LAST-CHANGE="2023-10-17T17:47:31+05:30" LONG-NAME="WMREQ007_1">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="WMREQ007_1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="true">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Wiper=ON if (Rain_Sensor=0 OR Knob=0)AND Ignition=1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="a8f20eb0-3079-4b8d-aeea-db3724ed75a3" LAST-CHANGE="2023-10-17T17:47:36+05:30" LONG-NAME="WMREQ008">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="WMREQ008">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="true">
+              <THE-VALUE>
+                <xhtml:div><xhtml:table border="0" style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px;" cellspacing="2" cellpadding="0"><xhtml:tr><xhtml:td width="342"><xhtml:p align="left" style="margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Regardless of the inputs of Rain Sensor and Knob to the Wiper, it should be OFF if the Ignition Switch is OFF</xhtml:p></xhtml:td></xhtml:tr></xhtml:table></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Wiper Disable Behavior2">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+        <SPEC-OBJECT DESC="" IDENTIFIER="d031757d-969e-46cb-bfc4-5d74c17f15e0" LAST-CHANGE="2023-10-18T14:48:12+05:30" LONG-NAME="WMREQ008_1">
+          <VALUES>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="WMREQ008_1">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>_4071a8aa-8149-485d-b344-361574cf96b9</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+            <ATTRIBUTE-VALUE-XHTML IS-SIMPLIFIED="true">
+              <THE-VALUE>
+                <xhtml:div></xhtml:div>
+              </THE-VALUE>
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-XHTML-REF>_4cd3770e-9ddf-4f34-a93d-55e0808d1df9</ATTRIBUTE-DEFINITION-XHTML-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-XHTML>
+            <ATTRIBUTE-VALUE-STRING THE-VALUE="Wiper=OFF if (Rain_Sensor=1 OR Knob=1)AND Ignition=0">
+              <DEFINITION>
+                <ATTRIBUTE-DEFINITION-STRING-REF>f93675cc-237c-4fe1-9284-5cfbf3634129</ATTRIBUTE-DEFINITION-STRING-REF>
+              </DEFINITION>
+            </ATTRIBUTE-VALUE-STRING>
+          </VALUES>
+          <TYPE>
+            <SPEC-OBJECT-TYPE-REF>_9ac6ee73-ad08-434c-960c-8cfe13e03ded</SPEC-OBJECT-TYPE-REF>
+          </TYPE>
+        </SPEC-OBJECT>
+      </SPEC-OBJECTS>
+      <SPEC-RELATIONS/>
+      <SPECIFICATIONS>
+        <SPECIFICATION DESC="" IDENTIFIER="b7b5c932-dbed-4750-9543-69236ad988c7" LAST-CHANGE="2023-10-20T12:21:20+05:30" LONG-NAME="Wiper_swreq">
+          <VALUES/>
+          <CHILDREN>
+            <SPEC-HIERARCHY DESC="" IDENTIFIER="f5d5b137-feb0-434b-b8ce-e69984673405" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2023-10-20T12:21:20+05:30" LONG-NAME="WMREQ001">
+              <CHILDREN>
+                <SPEC-HIERARCHY DESC="" IDENTIFIER="d50d56ed-83e1-4da2-a383-2a060cb9f18c" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2023-10-20T12:21:20+05:30" LONG-NAME="WMREQ001_1">
+                  <CHILDREN/>
+                  <EDITABLE-ATTS/>
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>d2b08ecd-3cbd-48d8-a17e-4d49f6a29b16</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY DESC="" IDENTIFIER="_0d21cb54-0469-4942-acbd-1b25186226e1" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2023-10-20T12:21:20+05:30" LONG-NAME="WMREQ001_2">
+                  <CHILDREN/>
+                  <EDITABLE-ATTS/>
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_0afbbb85-f0cc-4b18-840c-14139308bf66</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY DESC="" IDENTIFIER="b992d8c6-a529-4da7-aba4-7544d94ca052" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2023-10-20T12:21:20+05:30" LONG-NAME="WMREQ001_3">
+                  <CHILDREN/>
+                  <EDITABLE-ATTS/>
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>dd2db3b3-4cb0-4ee5-a507-5cf3dc202a5d</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY DESC="" IDENTIFIER="d6994895-8e79-4410-a95a-0689351a7e63" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2023-10-20T12:21:20+05:30" LONG-NAME="WMREQ001_4">
+                  <CHILDREN/>
+                  <EDITABLE-ATTS/>
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_5edb9a91-1c63-445e-8753-a6b83004d271</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+              <EDITABLE-ATTS/>
+              <OBJECT>
+                <SPEC-OBJECT-REF>_734cafd0-0530-4568-aebd-6318c3a0ffed</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY DESC="" IDENTIFIER="_529e598a-1c01-421f-9f75-f7118e8a336a" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2023-10-20T12:21:20+05:30" LONG-NAME="WMREQ002">
+              <CHILDREN>
+                <SPEC-HIERARCHY DESC="" IDENTIFIER="_3d06a77c-34ec-44ab-99d5-23ee33a4f2d0" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2023-10-20T12:21:20+05:30" LONG-NAME="WMREQ002_1">
+                  <CHILDREN/>
+                  <EDITABLE-ATTS/>
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>e7437d2b-5dd8-40ce-805e-d3bb07e21206</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY DESC="" IDENTIFIER="cece1139-48d7-4151-8fbf-fca5c476a686" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2023-10-20T12:21:20+05:30" LONG-NAME="WMREQ002_2">
+                  <CHILDREN/>
+                  <EDITABLE-ATTS/>
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>accc7c09-fc21-4daf-a87f-3d80ae0a8dbf</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+                <SPEC-HIERARCHY DESC="" IDENTIFIER="_49a158db-31f1-4cb5-9cf5-ee0cd6a73fa3" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2023-10-20T12:21:20+05:30" LONG-NAME="WMREQ002_3">
+                  <CHILDREN/>
+                  <EDITABLE-ATTS/>
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>bb23b47b-f665-48a2-a89c-517bbaa6dd19</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+              <EDITABLE-ATTS/>
+              <OBJECT>
+                <SPEC-OBJECT-REF>_2cc5fcf6-0cf7-4ac9-9723-8c63445cf1b7</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY DESC="" IDENTIFIER="d7efb47e-dd51-4e61-8b88-4886976bc43c" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2023-10-20T12:21:20+05:30" LONG-NAME="WMREQ003">
+              <CHILDREN>
+                <SPEC-HIERARCHY DESC="" IDENTIFIER="d89780d8-62ed-431d-8fca-16d241c6381e" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2023-10-20T12:21:20+05:30" LONG-NAME="WMREQ003_1">
+                  <CHILDREN/>
+                  <EDITABLE-ATTS/>
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>dd225d94-bb2e-45ca-9866-07e37f21d8cd</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+              <EDITABLE-ATTS/>
+              <OBJECT>
+                <SPEC-OBJECT-REF>a1ddcc18-2bca-4281-9462-3bd2f2561fe3</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY DESC="" IDENTIFIER="_27c6a28b-fbbb-4fd7-9361-92c02628099e" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2023-10-20T12:21:20+05:30" LONG-NAME="WMREQ004">
+              <CHILDREN>
+                <SPEC-HIERARCHY DESC="" IDENTIFIER="ade8168d-ae66-4f74-a4a1-a7ace6028e3d" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2023-10-20T12:21:20+05:30" LONG-NAME="WMREQ004_1">
+                  <CHILDREN/>
+                  <EDITABLE-ATTS/>
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_05711b15-6463-4c10-8ad4-10dc22b8906f</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+              <EDITABLE-ATTS/>
+              <OBJECT>
+                <SPEC-OBJECT-REF>ad27de75-5169-404c-a25c-27c972baa60b</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY DESC="" IDENTIFIER="f57fb130-7afc-4e9e-bbf0-5328de296798" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2023-10-20T12:21:20+05:30" LONG-NAME="WMREQ005">
+              <CHILDREN>
+                <SPEC-HIERARCHY DESC="" IDENTIFIER="_015e82fe-e60c-43cd-93aa-7b2f95501e98" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2023-10-20T12:21:20+05:30" LONG-NAME="WMREQ005_1">
+                  <CHILDREN/>
+                  <EDITABLE-ATTS/>
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_6d398c49-d3df-4ed7-bede-e5ee9c27ff15</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+              <EDITABLE-ATTS/>
+              <OBJECT>
+                <SPEC-OBJECT-REF>_990de657-d111-44a6-8f9d-05d7431b8a43</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY DESC="" IDENTIFIER="_70fc631f-37cc-4d27-bc88-891e1c865f15" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2023-10-20T12:21:20+05:30" LONG-NAME="WMREQ006">
+              <CHILDREN>
+                <SPEC-HIERARCHY DESC="" IDENTIFIER="_139fe177-7590-46b9-9876-707008b53bd2" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2023-10-20T12:21:20+05:30" LONG-NAME="WMREQ006_1">
+                  <CHILDREN/>
+                  <EDITABLE-ATTS/>
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_2451934e-bbbc-43d0-9955-e3371e4e3af9</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+              <EDITABLE-ATTS/>
+              <OBJECT>
+                <SPEC-OBJECT-REF>_7885a8d2-0243-41b9-bdc4-b3d5abc1bdef</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY DESC="" IDENTIFIER="_5f9ee522-5867-44c0-9627-0c0a4e1722e5" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2023-10-20T12:21:20+05:30" LONG-NAME="WMREQ007">
+              <CHILDREN>
+                <SPEC-HIERARCHY DESC="" IDENTIFIER="_2424de73-d71c-41e4-8176-a6dd9ba9ca9d" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2023-10-20T12:21:20+05:30" LONG-NAME="WMREQ007_1">
+                  <CHILDREN/>
+                  <EDITABLE-ATTS/>
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>_132cf743-8298-44e2-987d-3ef05c274d46</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+              <EDITABLE-ATTS/>
+              <OBJECT>
+                <SPEC-OBJECT-REF>_298e6f31-4bc3-4372-b54c-d3925080bf67</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+            <SPEC-HIERARCHY DESC="" IDENTIFIER="_7095ca68-2c1d-4fae-b4b1-ca3da412f324" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2023-10-20T12:21:20+05:30" LONG-NAME="WMREQ008">
+              <CHILDREN>
+                <SPEC-HIERARCHY DESC="" IDENTIFIER="_6c3251c9-550c-40b4-8d25-3cd8845fce32" IS-EDITABLE="false" IS-TABLE-INTERNAL="false" LAST-CHANGE="2023-10-20T12:21:20+05:30" LONG-NAME="WMREQ008_1">
+                  <CHILDREN/>
+                  <EDITABLE-ATTS/>
+                  <OBJECT>
+                    <SPEC-OBJECT-REF>d031757d-969e-46cb-bfc4-5d74c17f15e0</SPEC-OBJECT-REF>
+                  </OBJECT>
+                </SPEC-HIERARCHY>
+              </CHILDREN>
+              <EDITABLE-ATTS/>
+              <OBJECT>
+                <SPEC-OBJECT-REF>a8f20eb0-3079-4b8d-aeea-db3724ed75a3</SPEC-OBJECT-REF>
+              </OBJECT>
+            </SPEC-HIERARCHY>
+          </CHILDREN>
+          <TYPE>
+            <SPECIFICATION-TYPE-REF>af022453-37d5-467d-904b-64d522161eec</SPECIFICATION-TYPE-REF>
+          </TYPE>
+        </SPECIFICATION>
+      </SPECIFICATIONS>
+      <SPEC-RELATION-GROUPS/>
+    </REQ-IF-CONTENT>
+  </CORE-CONTENT>
+  <TOOL-EXTENSIONS/>
+</REQ-IF>
